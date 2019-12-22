@@ -22,7 +22,7 @@ def find_the_cheese(array)
     array.detect do |item|
     cheese_types.include? item
     end
-  end
+end
 
 
 
